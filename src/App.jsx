@@ -2,10 +2,15 @@ import {Navbar , Welcome , Footer , Loader , Services , Transactions} from './co
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">
+    <div className="min-h-screen">
+      <h1 className="gradient-bg-welcome">
+        <Navbar/>
+        <Welcome/>  
       Hello world!
     </h1>
+        <Services/>
+        <Transactions/>
+        <Footer/>
     </div>
   )
 }
